@@ -2,6 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Cinzel";
+  src: url('../assets/Cinzel/Cinzel-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+  
+@font-face {
+  font-family: "Cinzel-Bold";
+  src: url('../assets/Cinzel/Cinzel-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+  
+@font-face {
+  font-family: "Cinzel-Black";
+  src: url('../assets/Cinzel/Cinzel-Black.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.cinzel{
+  font-family: "Cinzel";
+}
+
+.cinzel-black{
+  font-family: "Cinzel-Black";
+}
+
+.cinzel-bold{
+  font-family: "Cinzel-Bold";
+}
 
 html{
   scroll-behavior: smooth;
@@ -9,4 +41,8 @@ html{
 
 .custom-img {
   background-image: url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1883&q=80');
+}
+
+.custom-img2 {
+  background-image: url('https://images.unsplash.com/photo-1605557833955-43b5db995535?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1326&q=80');
 }

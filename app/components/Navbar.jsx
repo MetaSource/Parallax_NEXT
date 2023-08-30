@@ -29,9 +29,9 @@ const Navbar = ({brand}) => {
     <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-10 easin-in duration-300'>
         <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
             <Link href='/'>
-            <h1 style={{color: `${textColor}`}} className='font-bold text-4xl'>{brand}</h1>
+            <h1 style={{color: `${textColor}`}} className='cinzel-bold font-bold text-4xl'>{brand}</h1>
             </Link>
-            <ul style={{color: `${textColor}`}}  className='hidden sm:flex'>
+            <ul style={{color: `${textColor}`}}  className='cinzel hidden sm:flex'>
                 <li className='p-4'><Link href='/'>Home</Link></li>
                 <li className='p-4'><Link href='/#gallery'>Gallery</Link></li>
                 <li className='p-4'><Link href='/portfolio'>Work</Link></li>
