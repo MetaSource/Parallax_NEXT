@@ -2,7 +2,7 @@ import React from 'react'
 
 const ElegantContact = () => {
   return (
-    <section className="p-4" 
+    <section className="pt-24 pb-24 p-4" 
         style={{
             maxWidth: '650px',
             margin:'0 auto',     
@@ -65,7 +65,8 @@ const ElegantContact = () => {
                     transition: 'transform .2s ease-in-out',
                 }}>Message</label>
           <input id="message" style={{
-                display: 'block', 'width': '100%',
+                display: 'block', 
+                width: '100%',
                 height: '36px',
                 borderWidth: '0 0 2px 0',
                 borderColor: '#000',
@@ -76,7 +77,18 @@ const ElegantContact = () => {
           
        </div>
        <div className="mt-[32px] mb-[32px] ml-0 mr-0 col-span-2 text-center">
-          <input className="submit-btn" type="submit" value="Submit" />
+          <input style={{
+                    display: 'inline-block',
+                    backgroundColor: '#fff',
+                    color: '#000',
+                    textTransform: 'uppercase',
+                    letterSpacing: '2px',
+                    fontSize: '16px',
+                    lineHeight: '24px',
+                    padding: '8px 16px',
+                    cursor: 'pointer',
+                }}
+            className="border border-black submit-btn" type="submit" value="Submit" />
        </div>
     </form>
  </section>
