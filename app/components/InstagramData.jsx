@@ -1,0 +1,31 @@
+export const InstagramData = [
+    {
+        image: 
+        'https://images.unsplash.com/photo-1513219872556-78665cfff8bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80',
+    }, 
+    {
+        image: 
+        'https://images.unsplash.com/photo-1601362840469-51e4d8d58785?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+    },
+    {
+        image: 
+        'https://images.unsplash.com/photo-1570280407069-9017ba84a3a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+    },
+    {
+        image: 
+        'https://images.unsplash.com/photo-1566473981858-1a899744208a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+    },
+    {
+        image: 
+        'https://images.unsplash.com/photo-1614377284368-a6d4f911edc7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+    },
+    {
+        image: 
+        'https://images.unsplash.com/photo-1534096331554-af5d8b510bbf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+    },
+    {
+        image: 
+        'https://images.unsplash.com/photo-1567691624074-d25d4b76fbac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+    },
+]
+

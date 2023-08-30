@@ -2,7 +2,7 @@ import React from 'react'
 
 const ElegantContact = () => {
   return (
-    <section className="pt-24 pb-24 p-4" 
+    <section id='contact' className="pt-24 pb-24 p-4" 
         style={{
             maxWidth: '650px',
             margin:'0 auto',     
@@ -10,7 +10,7 @@ const ElegantContact = () => {
     <h1 className="text-2xl p-4 text-center">Get in touch</h1>
     <form className="grid grid-cols-2 gap-8">
        <div className="mt-[32px] mb-[32px] ml-0 mr-0 ">
-       <label className="label" for="name"
+       <label className="label" htmlFor="name"
             style={{
                     fontSize: '18px',
                     lineHeight: '26px',
@@ -31,7 +31,7 @@ const ElegantContact = () => {
           
        </div>
        <div className="mt-[32px] mb-[32px] ml-0 mr-0">
-       <label className="label" for="email" style={{
+       <label className="label" htmlFor="email" style={{
                     fontSize: '18px',
                     lineHeight: '26px',
                     fontWeight: '400',
@@ -56,7 +56,7 @@ const ElegantContact = () => {
           
        </div>
        <div className='col-span-2'>
-       <label className="label" for="message" style={{
+       <label className="label" htmlFor="message" style={{
                     fontSize: '18px',
                     lineHeight: '26px',
                     fontWeight: '400',

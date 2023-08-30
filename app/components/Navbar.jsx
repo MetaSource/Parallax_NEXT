@@ -35,7 +35,7 @@ const Navbar = ({brand}) => {
                 <li className='p-4'><Link href='/'>Home</Link></li>
                 <li className='p-4'><Link href='/#gallery'>Gallery</Link></li>
                 <li className='p-4'><Link href='/portfolio'>Work</Link></li>
-                <li className='p-4'><Link href='/contact'>Contact</Link></li>
+                <li className='p-4'><Link href='/#contact'>Contact</Link></li>
             </ul>
 
             {/*  ---Mobile menu---  */}
@@ -49,7 +49,7 @@ const Navbar = ({brand}) => {
                     <li className='p-4 text-4xl hover:text-gray-500'><Link href='/'>Home</Link></li>
                     <li className='p-4 text-4xl hover:text-gray-500'><Link href='/#gallery'>Gallery</Link></li>
                     <li className='p-4 text-4xl hover:text-gray-500'><Link href='/portfolio'>Work</Link></li>
-                    <li className='p-4 text-4xl hover:text-gray-500'><Link href='/contact'>Contact</Link></li>
+                    <li className='p-4 text-4xl hover:text-gray-500'><Link href='/#contact'>Contact</Link></li>
                 </ul>
             </div>
         </div>
