@@ -10,7 +10,8 @@ const Footer = () => {
         className="lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold
        md:w-2/5"
       >
-        <span className="text-teal-400">Drive</span> in luxury.
+          {/*text-teal-400 */}
+        <span className="text-[#A48111] ">Drive</span> in luxury.
       </h1>
 
     </div>
