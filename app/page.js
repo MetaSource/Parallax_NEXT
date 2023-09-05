@@ -6,6 +6,7 @@ import Instagram from './components/Instagram'
 import Navbar from './components/Navbar'
 import Slider from './components/Slider'
 import { SliderData } from './components/SliderData'
+import Footer from './components/Footer'
 
 export default function Home() {
   const brandName='Lux Rentals'
@@ -18,6 +19,7 @@ export default function Home() {
     <Slider slides={SliderData}/>
     <Instagram handle={brandHandle} />
     <ElegantContact />
+    <Footer />
   </>
   )
 }
