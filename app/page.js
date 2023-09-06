@@ -8,6 +8,7 @@ import Slider from './components/Slider'
 import { SliderData } from './components/SliderData'
 import Footer from './components/Footer'
 
+
 export default function Home() {
   const brandName='Lux Rentals'
   const brandLocation = 'Rancho Mirage, CA'

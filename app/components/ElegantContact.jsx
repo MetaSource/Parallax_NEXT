@@ -2,7 +2,7 @@ import React from 'react'
 
 const ElegantContact = () => {
   return (
-    <section id='contact' className="pt-24 pb-24 p-4" 
+    <section id='contact' className="bg-white sm:pt-24 sm:pb-24 p-4" 
         style={{
             maxWidth: '650px',
             margin:'0 auto',     
