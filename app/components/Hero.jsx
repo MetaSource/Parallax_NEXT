@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = ({businessName, city, buttonLabel}) => {
   return (
-    <div className='flex items-center justify-center h-screen bg-device sm:bg-device-sm bg-center bg-fixed bg-cover mb-12'>
+    <div className='flex items-center justify-center h-screen bg-device sm:bg-device-sm bg-center bg-fixed bg-cover'>
         {/*overlay*/}
         <div className='absolute top-0 left-0 right-0 bottom-0 bg-black/50 z-[2]' />
 
